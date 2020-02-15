@@ -22,5 +22,5 @@ app.post('/aaa', (request, response) => {
   data1.timestamp = timestamp;
   database.insert(data1);
   console.log(data1);
-  response.json(data1) ;
+  response.json(data1);
 })

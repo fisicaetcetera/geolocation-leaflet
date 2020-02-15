@@ -1,0 +1,14 @@
+beit grecia 2020
+Esse texto é para explicar sobre o programa que estou disponibilizando em
+https://fisicaetcetera.github.io/Greece
+1. Se você autorizar sua localização, aparecerá um ícone, com sua posição, escrito 'você!' no mapa.  
+2. Se me mandar uma foto, eu a coloco ao invés do ícone no mapa.  Nesse caso, deverá ter um nome de usuário por exemplo 'marilia135' para o programa escolher a imagem.  O programa perguntará se você quer usar a imagem, em versões futuras.
+3. Estou colocando alguns lugares interessantes, no mapa, à medida que aprendo com minha leitura sobre isso.  Aposentado tem tempo.
+4. Para o futuro, texto explicativos, sobre cada local aparecerão, quando você clicar nos ícones.
+5. Para o futuro, e isso não consegui fazer ainda, seria cada um ver onde o outro está, no mapa.  Todos do grupo que autorizem aparecerão no mapa.  Para atualizar sua posição, bastaria clicar (ou tocar, no caso de celular) no mapa, onde haveria um botão 'atualizar posição.'  Senão seus amigos continuam vendo sua posição anterior...  Tudo isso de posição depende da autorização de cada um: nenhuma invasão de privacidade. 
+No próximo passo, só vou colocar algumas imagens de vocês lá, de nossas viagens e pedir que se identifiquem, para eu colocar sua imagem na sua localização. Só você verá sua imagem,  outras pessoas que acessarem terão o
+ícone simples, a não ser que seja outra pessoa dogrupo que eu tenha a imagem.
+Ainda estou trabalhando nisso.  Mas entrem no programa, para ver se ele está acertando a sua localização. E ver as fotos da Grécia que já coloquei.
+Obrigado,
+-bonelli.
+(ou fisicaetcetera.) 

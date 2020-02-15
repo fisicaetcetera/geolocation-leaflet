@@ -38,7 +38,7 @@
                     body: JSON.stringify(data)
                     
                 };
-                const response = await fetch('/api',options);
+                const response = await fetch('/',options);
                 const servidor = await response.json();
                 const atraso = servidor.timestamp - data.timestamp;
                 //Resposta para o usuario
@@ -47,7 +47,7 @@
                 console.log(servidor.timestamp);
                 console.log(servidor.status);
                 console.log(servidor.lat);
-                console.log(servidor.lon);
+                console.log(servidor.lon)
                 });
                 
 

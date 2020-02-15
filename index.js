@@ -10,12 +10,12 @@ app.use(express.json({limit: '1mb'}))
 const database = new Datastore('database.db');
 database.loadDatabase();
 
-app.get('/', (request, response) => {
+app.get('/aaa', (request, response) => {
   response.json({test: 123});
 });
 
-app.post('/', (request, response) => {
-  //console.log('I got a request!');
+app.post('/aaa', (request, response) => {
+  console.log('I got a request!');
   const data1 = request.body;
   const timestamp = Date.now();
   data1.status = 'server: success!';

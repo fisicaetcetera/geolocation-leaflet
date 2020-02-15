@@ -37,16 +37,17 @@
                     body: JSON.stringify(data)
                     
                 };
-                const response = await fetch('/',options);
+                const response = await fetch('/aaa',options);
                 const servidor = await response.json();
-                const atraso = servidor.timestamp - data.timestamp;
+		    console.log(servidor);
+                //const atraso = servidor.timestamp - data.timestamp;
                 //Resposta para o usuario
                 
-                document.getElementById('Atraso').textContent = atraso; 
-                console.log(servidor.timestamp);
-                console.log(servidor.status);
-                console.log(servidor.lat);
-                console.log(servidor.lon);
+                //document.getElementById('Atraso').textContent = atraso; 
+                //console.log(servidor.timestamp);
+                //console.log(servidor.status);
+                //console.log(servidor.lat);
+                //console.log(servidor.lon);
                 })
                 
 

@@ -10,6 +10,7 @@ app.use(express.json({limit: '1mb'}))
 
 const database = new Datastore('database.db');
 database.loadDatabase();
+database.insert({nome:Bonelli});
 
 app.get('/api', (request, response) => {
   response.json({test: 123});

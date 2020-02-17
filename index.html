@@ -35,8 +35,7 @@
                         'Content-Type': 'application/json'
                         //'Content-Type': 'application/x-www-form-urlencoder',
                     },
-                    body: JSON.stringify(data)
-                    
+                    body: JSON.stringify(data)                    
                 };
                 const response = await fetch('/api',options);
                 const servidor = await response.json();

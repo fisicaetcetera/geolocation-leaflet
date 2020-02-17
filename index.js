@@ -11,7 +11,7 @@ app.use(express.json({limit: '1mb'}))
 const database = new Datastore('database.db');
 database.loadDatabase();
 
-app.get('index', (request, response) => {
+app.get('/api', (request, response) => {
   response.json({test: 123});
 });
 

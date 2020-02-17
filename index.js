@@ -6,7 +6,7 @@ app.listen(process.env.PORT || 8000, function() {
 	console.log("SERVER STARTED PORT: 8000")};
 app.use(express.static('public'));
 app.use(express.json({limit: '1mb'}))
-//blablabla
+//bla
 
 const database = new Datastore('database.db');
 database.loadDatabase();
@@ -15,7 +15,7 @@ app.get('index', (request, response) => {
   response.json({test: 123});
 });
 
-app.post('/aaa', (request, response) => {
+app.post('/api', (request, response) => {
   console.log('I got a request!');
   const data1 = request.body;
   const timestamp = Date.now();

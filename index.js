@@ -12,11 +12,11 @@ const database = new Datastore('database.db');
 database.loadDatabase();
 database.insert({nome:Bonelli});
 
-app.get('/api', (request, response) => {
+app.get('/', (request, response) => {
   response.json({test: 123});
 });
 
-app.post('/api', (request, response) => {
+app.post('/', (request, response) => {
   console.log('I got a request!');
   const data1 = request.body;
   const timestamp = Date.now();

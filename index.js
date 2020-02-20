@@ -6,17 +6,17 @@ app.listen(process.env.PORT || 8000, function() {
 	console.log("SERVER STARTED PORT: 8000")};
 app.use(express.static('public'));
 app.use(express.json({limit: '1mb'}))
-//blabla1
+//201929
 
 const database = new Datastore('database.db');
 database.loadDatabase();
 database.insert({nome:Bonelli});
 
-app.get('/', (request, response) => {
-  response.json({test: 123});
-});
+//app.get('api', (request, response) => {
+//  response.json({test: 123});
+//});
 
-app.post('/', (request, response) => {
+app.post('api', (request, response) => {
   console.log('I got a request!');
   const data1 = request.body;
   const timestamp = Date.now();

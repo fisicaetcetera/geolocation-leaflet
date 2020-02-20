@@ -37,7 +37,7 @@
                     body: JSON.stringify(data)
                     
                 };
-                const response = await fetch('/aaa',options);
+                const response = await fetch('/api',options);
                 const servidor = await response.json();
 		    console.log(servidor);
                 //const atraso = servidor.timestamp - data.timestamp;
